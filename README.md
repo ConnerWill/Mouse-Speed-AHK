@@ -1,7 +1,7 @@
 ![Mouse-Speed-AHK-Banner](media/mouse.png)
 
 # **Mouse-Speed-AHK**
-> **[*Mouse-Speed-AHK*](https://github.com/ConnerWill/Mouse-Speed-AHK) extends the functionality of the the *CapsLock* key by allowing unused/annoying keys to be disabled, along with providing formatting of text and text replacement abilities.**
+> **[*Mouse-Speed-AHK*](https://github.com/ConnerWill/Mouse-Speed-AHK)**
 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/ConnerWill/Mouse-Speed-AHK)
@@ -11,6 +11,7 @@
 ![GitHub](https://img.shields.io/github/license/ConnerWill/Mouse-Speed-AHK)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ConnerWill/Mouse-Speed-AHK?style=social)
 
+<!--
 
 ## Table Of Contents
 * [Mouse-Speed-AHK](#Mouse-Speed-AHK)
@@ -33,6 +34,8 @@
    * [Smart Method](#smart-method)
    * [Task Scheduler Method](#task-scheduler-method)
 * [Resources](#resources)
+
+
 
 # Overview
 This script allows you to set the desired key state of keys on your keyboard; while still allowing you to use those keys without changing settings or killing the script. It also adds a popup menu that can format the currently selected text.
@@ -225,3 +228,6 @@ The task is now registered and will run on the next logon. The task can be viewe
 *To see debug messages, download [SysInternals DebugView](https://technet.microsoft.com/en-us/sysinternals/debugview).*
 
 *Credit to [original script](https://www.autohotkey.com/boards/viewtopic.php?t=69889)*
+
+
+-->
