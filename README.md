@@ -1,7 +1,7 @@
 ![Mouse-Speed-AHK-Banner](media/Mouse-Speed-AHK-Banner.png)
 
 # **Mouse-Speed-AHK**
-> **[*Mouse-Speed-AHK.ahk*](https://github.com/ConnerWill/Mouse-Speed-AHK) extends the functionality of the the *CapsLock* key by allowing unused/annoying keys to be disabled, along with providing formatting of text and text replacement abilities.**
+> **[*Mouse-Speed-AHK*](https://github.com/ConnerWill/Mouse-Speed-AHK) extends the functionality of the the *CapsLock* key by allowing unused/annoying keys to be disabled, along with providing formatting of text and text replacement abilities.**
 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/ConnerWill/Mouse-Speed-AHK)
