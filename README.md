@@ -1,19 +1,19 @@
-![CAPshift Banner](media/CAPshift-Banner.png)
+![Mouse-Speed-AHK-Banner](media/Mouse-Speed-AHK-Banner.png)
 
-# **CAPshift**
-> **[*CAPshift.ahk*](https://github.com/ConnerWill/CAPshift) extends the functionality of the the *CapsLock* key by allowing unused/annoying keys to be disabled, along with providing formatting of text and text replacement abilities.**
+# **Mouse-Speed-AHK**
+> **[*Mouse-Speed-AHK.ahk*](https://github.com/ConnerWill/Mouse-Speed-AHK) extends the functionality of the the *CapsLock* key by allowing unused/annoying keys to be disabled, along with providing formatting of text and text replacement abilities.**
 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/ConnerWill/CAPshift)
-![GitHub issues](https://img.shields.io/github/issues-raw/ConnerWill/CAPshift)
-![GitHub repo size](https://img.shields.io/github/repo-size/ConnerWill/CAPshift)
-[![GitLab](https://img.shields.io/static/v1?label=gitlab&logo=gitlab&color=E24329&message=mirrored)](https://gitlab.com/ConnerWill/CAPshift)
-![GitHub](https://img.shields.io/github/license/ConnerWill/CAPshift)
-![GitHub Repo stars](https://img.shields.io/github/stars/ConnerWill/CAPshift?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/ConnerWill/Mouse-Speed-AHK)
+![GitHub issues](https://img.shields.io/github/issues-raw/ConnerWill/Mouse-Speed-AHK)
+![GitHub repo size](https://img.shields.io/github/repo-size/ConnerWill/Mouse-Speed-AHK)
+[![GitLab](https://img.shields.io/static/v1?label=gitlab&logo=gitlab&color=E24329&message=mirrored)](https://gitlab.com/ConnerWill/Mouse-Speed-AHK)
+![GitHub](https://img.shields.io/github/license/ConnerWill/Mouse-Speed-AHK)
+![GitHub Repo stars](https://img.shields.io/github/stars/ConnerWill/Mouse-Speed-AHK?style=social)
 
 
 ## Table Of Contents
-* [CAPshift](#capshift)
+* [Mouse-Speed-AHK](#Mouse-Speed-AHK)
 * [Overview](#overview)
 * [Usage](#usage)
 * [Hotkeys](#hotkeys)
@@ -28,7 +28,7 @@
    * [Customizing Hotkeys](#customizing-hotkeys)
    * [Configuration File Values Descriptions](#configuration-file-value-descriptions)
    * [Configuration File Contents](#configuration-file-contents)
-* [Running CAPshift at Startup](#running-capshift-at-startup)
+* [Running Mouse-Speed-AHK at Startup](#running-Mouse-Speed-AHK-at-startup)
    * [Standard Method](#standard-method)
    * [Smart Method](#smart-method)
    * [Task Scheduler Method](#task-scheduler-method)
@@ -43,13 +43,13 @@ This script allows you to set the desired key state of keys on your keyboard; wh
 1. Install [AutoHotkey](https://autohotkey.com/download/) if you havent already
 2. Clone this repository:
 ```console
-$  git clone https://github.com/ConnerWill/CAPshift.git
+$  git clone https://github.com/ConnerWill/Mouse-Speed-AHK.git
 ```
-3. Run [`CAPshift.ahk`](https://github.com/ConnerWill/CAPshift/blob/main/CAPshift.ahk)
+3. Run [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk)
 
 # Usage
 
-Run [`CAPshift.ahk`](https://github.com/ConnerWill/CAPshift/blob/main/CAPshift.ahk) script *(open with AutoHotkey if prompted)*.
+Run [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) script *(open with AutoHotkey if prompted)*.
 
 *Holding* <kbd>`CapsLock`</kbd> for `0.5` seconds toggles CapsLock **ON** or **OFF**
 
@@ -118,9 +118,9 @@ Sometimes abbreviated as <kbd>`ScLk`</kbd>, <kbd>`ScrLk`</kbd>, or <kbd>`Slk`</k
 # Configuration File
 
 ## Customizing Hotkeys
-To change the settings/behavior of this script, modify the [`CAPshift.ini`](https://github.com/ConnerWill/CAPshift/blob/main/CAPshift.ini) script and then run the [`CAPshift.ahk`](https://github.com/ConnerWill/CAPshift/blob/main/CAPshift.ahk) *(program will restart if it's already running).*
+To change the settings/behavior of this script, modify the [`Mouse-Speed-AHK.ini`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ini) script and then run the [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) *(program will restart if it's already running).*
 
-If the configuration file does not exist, isn't referenced, or is not in the same folder as [`CAPshift.ahk`](https://github.com/ConnerWill/CAPshift/blob/main/CAPshift.ahk), the configuration file will be automatically generated.
+If the configuration file does not exist, isn't referenced, or is not in the same folder as [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk), the configuration file will be automatically generated.
 
 **Note:*
 >>`!` *corresponds to* <kbd>`Alt`</kbd>
@@ -133,7 +133,7 @@ If the configuration file does not exist, isn't referenced, or is not in the sam
 
 *A more detailed description of hotkeys can be found here: [AutoHotkey docs](https://autohotkey.com/docs/Hotkeys.htm).*<br>
 
-*After any changes to the [`CAPshift.ini`](https://github.com/ConnerWill/CAPshift/blob/main/CAPshift.ini) configuration file, the program needs to be closed and opened again.*
+*After any changes to the [`Mouse-Speed-AHK.ini`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ini) configuration file, the program needs to be closed and opened again.*
 
 
 ## Configuration File Value Descriptions
@@ -150,7 +150,7 @@ Variable|Value|Description
 ## Configuration File Contents
 **See [Configuration File Values Descriptions](#configuration-file-value-descriptions) for a description of each setting.)**
 
-Contents of [`CAPshift.ini`](https://github.com/ConnerWill/CAPshift/blob/main/CAPshift.ini)
+Contents of [`Mouse-Speed-AHK.ini`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ini)
 
 ```ini
 ; KEY SETTINGS
@@ -181,7 +181,7 @@ AA=Å
 ;   .newline.
 ```
 
-# Running CAPshift at Startup
+# Running Mouse-Speed-AHK at Startup
 
 You can make the script run on every boot with either of these methods.
 
@@ -189,7 +189,7 @@ You can make the script run on every boot with either of these methods.
 *(Small-Brain method)*
 
 1. Press <kbd>`Win`</kbd> + <kbd>`R`</kbd>, enter `shell:startup`, then click <kbd>OK</kbd>
-2. Create a shortcut to the [`CAPshift.ahk`](https://github.com/ConnerWill/CAPshift/blob/main/CAPshift.ahk) in your startup folder.
+2. Create a shortcut to the [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) in your startup folder.
 
 ## **Smart Method**
 *(Big-Brain Method)*
@@ -198,7 +198,7 @@ You can make the script run on every boot with either of these methods.
 
 2. You can do this by running the [`AutoStartupToggle.ahk`](https://github.com/ConnerWill) file *(Coming Soon ...)*.
 
-3. Then select the [`CAPshift.ahk`](https://github.com/ConnerWill/CAPshift/blob/main/CAPshift.ahk) file and press the **Hotkey** to add the selected file to the startup folder.
+3. Then select the [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) file and press the **Hotkey** to add the selected file to the startup folder.
 
 *You can confirm the script has been added to the startup folder by pressing the **Hotkey** to display the **Startup Folder** shortcuts.*
 
@@ -206,15 +206,15 @@ You can make the script run on every boot with either of these methods.
 *(Chad Method)*
 
 *Run the following commands in an Administrator powershell prompt.*
-*Be sure to specify the correct path to your CAPshift.ahk file.*
+*Be sure to specify the correct path to your Mouse-Speed-AHK.ahk file.*
 
 ```powershell
-$T = New-ScheduledTaskAction -Execute "PATH\TO\CAPshift.ahk"
+$T = New-ScheduledTaskAction -Execute "PATH\TO\Mouse-Speed-AHK.ahk"
 $P = New-ScheduledTaskTrigger -AtLogon
 $S = New-ScheduledTaskPrincipal -GroupId "BUILTIN\Administrators" -RunLevel Highest
 $F = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -ExecutionTimeLimit 0
 $D = New-ScheduledTask -Action $A -Principal $P -Trigger $T -Settings $S
-Register-ScheduledTask CAPshift -InputObject $D
+Register-ScheduledTask Mouse-Speed-AHK -InputObject $D
 ```
 
 The task is now registered and will run on the next logon. The task can be viewed or modified in *'Task Scheduler'*.
