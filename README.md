@@ -3,7 +3,6 @@
 # **Mouse-Speed-AHK**
 > **[*Mouse-Speed-AHK*](https://github.com/ConnerWill/Mouse-Speed-AHK)**
 
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/ConnerWill/Mouse-Speed-AHK)
 ![GitHub issues](https://img.shields.io/github/issues-raw/ConnerWill/Mouse-Speed-AHK)
 ![GitHub repo size](https://img.shields.io/github/repo-size/ConnerWill/Mouse-Speed-AHK)
@@ -11,12 +10,10 @@
 ![GitHub](https://img.shields.io/github/license/ConnerWill/Mouse-Speed-AHK)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ConnerWill/Mouse-Speed-AHK?style=social)
 
-<!--
-
 ## Table Of Contents
 * [Mouse-Speed-AHK](#Mouse-Speed-AHK)
-* [Overview](#overview)
-* [Usage](#usage)
+  * [Overview](#overview)
+<!--* [Usage](#usage)
 * [Hotkeys](#hotkeys)
 * [Key States](#key-states)
    * [Caps Lock](#caps-lock)
@@ -34,8 +31,7 @@
    * [Smart Method](#smart-method)
    * [Task Scheduler Method](#task-scheduler-method)
 * [Resources](#resources)
-
-
+-->
 
 # Overview
 This script allows you to set the desired key state of keys on your keyboard; while still allowing you to use those keys without changing settings or killing the script. It also adds a popup menu that can format the currently selected text.
@@ -50,6 +46,7 @@ $  git clone https://github.com/ConnerWill/Mouse-Speed-AHK.git
 ```
 3. Run [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk)
 
+<!--
 # Usage
 
 Run [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) script *(open with AutoHotkey if prompted)*.
