@@ -32,17 +32,17 @@ Using this AutoHotKey script, you are able to instantly toggle the speed of your
 ```sh
 $  git clone https://github.com/ConnerWill/Mouse-Speed-AHK.git
 ```
-3. Run [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk)
+3. Run [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/MouseSpeed.ahk)
 
 ## Usage
 
-1. Run [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) script.    *(open with AutoHotkey if prompted)*.
+1. Run [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/MouseSpeed.ahk) script.    *(open with AutoHotkey if prompted)*.
 
 ### Hotkeys
 
-While you *hold* <kbd>F1</kbd>, your mouse cursor speed is very slow.
+* While you ***hold*** <kbd>F1</kbd>, your mouse cursor speed is very slow.
 
-*Releasing* <kbd>F1</kbd>, will restore your previous cursor speed.
+* ***Releasing*** <kbd>F1</kbd>, will restore your previous cursor speed.
 
 
 # Running At System Startup
@@ -57,7 +57,7 @@ You can make the script run on every boot with either of these methods.
 ```ms
 shell:startup
 ```
-3. Create a shortcut to the [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) to the startup folder.
+3. Create a shortcut to the [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/MouseSpeed.ahk) to the startup folder.
 
 ## **Task Scheduler Method**
 *(Chad Method)*
