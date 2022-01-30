@@ -16,9 +16,8 @@
   * [Installation](#installation)
   * [Usage](#usage)
     * [Hotkeys](#hotkeys)
-* [Running Mouse-Speed-AHK at Startup](#running-mouse-speed-ahk-at-startup)
-   * [Standard Method](#standard-method)
-   * [Smart Method](#smart-method)
+* [Running At System Startup](#running-at-system-startup)
+   * [Startup Folder Method](#startup-folder-method)
    * [Task Scheduler Method](#task-scheduler-method)
 * [Resources](#resources)
 
@@ -30,14 +29,14 @@ Using this AutoHotKey script, you are able to instantly toggle the speed of your
 
 1. Install [AutoHotkey](https://autohotkey.com/download/) if you havent already
 2. Clone this repository:
-```console
+```sh
 $  git clone https://github.com/ConnerWill/Mouse-Speed-AHK.git
 ```
 3. Run [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk)
 
 ## Usage
 
-Run [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) script *(open with AutoHotkey if prompted)*.
+1. Run [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) script.    *(open with AutoHotkey if prompted)*.
 
 ### Hotkeys
 
@@ -46,32 +45,19 @@ While you *hold* <kbd>F1</kbd>, your mouse cursor speed is very slow.
 *Releasing* <kbd>F1</kbd>, will restore your previous cursor speed.
 
 
-# Running Mouse-Speed-AHK at Startup
+# Running At System Startup
 
 You can make the script run on every boot with either of these methods.
 
-## **Standard Method**
+## **Startup Folder Method**
 *(Small-Brain method)*
 
 1. Press <kbd>`Win`</kbd> + <kbd>`R`</kbd>
-2. Type the command
+2. Enter the following command into the run box and click <kbd>OK</kbd>
 ```ms
 shell:startup
 ```
-and click <kbd>OK</kbd>
-
-4. Create a shortcut to the [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) to the startup folder.
-
-## **Smart Method**
-*(Big-Brain Method)*
-
-1. Since the function of this script is to add scripts to the startup folder, you can just use this script to add itself to the startup folder.
-
-2. You can do this by running the [`AutoStartupToggle.ahk`](https://github.com/ConnerWill) file *(Coming Soon ...)*.
-
-3. Then select the [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) file and press the **Hotkey** to add the selected file to the startup folder.
-
-*You can confirm the script has been added to the startup folder by pressing the **Hotkey** to display the **Startup Folder** shortcuts.*
+3. Create a shortcut to the [`Mouse-Speed-AHK.ahk`](https://github.com/ConnerWill/Mouse-Speed-AHK/blob/main/Mouse-Speed-AHK.ahk) to the startup folder.
 
 ## **Task Scheduler Method**
 *(Chad Method)*
