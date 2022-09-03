@@ -1,4 +1,4 @@
-![Mouse-Speed-AHK-Banner](media/Mouse-Speed-AHK-Banner.jpeg)
+![Mouse-Speed-AHK-Banner](assets/Mouse-Speed-AHK-Banner.jpeg)
 
 # **Mouse-Speed-AHK**
 > [*Mouse-Speed-AHK*](https://github.com/ConnerWill/Mouse-Speed-AHK) is an AutoHotKey script to change the speed of your mouse cursor using a hotkey
