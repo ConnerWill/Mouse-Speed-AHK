@@ -1,3 +1,5 @@
+<div align="center">
+
 ![Mouse-Speed-AHK-Banner](assets/Mouse-Speed-AHK-Banner.jpeg)
 
 # **Mouse-Speed-AHK**
@@ -9,6 +11,8 @@
 [![GitLab](https://img.shields.io/static/v1?label=gitlab&logo=gitlab&color=E24329&message=mirrored)](https://gitlab.com/ConnerWill/Mouse-Speed-AHK)
 ![GitHub](https://img.shields.io/github/license/ConnerWill/Mouse-Speed-AHK)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ConnerWill/Mouse-Speed-AHK?style=social)
+
+</div>
 
 ## Table Of Contents
 * [Mouse-Speed-AHK](#mouse-speed-ahk)
